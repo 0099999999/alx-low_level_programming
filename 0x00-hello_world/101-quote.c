@@ -1,16 +1,25 @@
-#include <stdio.h>
+#include <stdio.h> 
 
-/**
- * main - print the string in the put function
- *
- * Description: using the main function
- * this program prints "programming is like building a multilingual puzzel
- * Return: 1
- */
-int main(void)
-{
-	char str1[] = "and that piece of art is useful\" - Dora Kropar, 2015-10-19\n";
+  
 
-	write(2, str1, 59);
-	return (1);
-}
+ /** 
+  *
+  *   * main - Entry point 
+  *
+  *     * 
+  *
+  *       * Return: Always 0 (Success) 
+  *
+  *         */ 
+
+ int main(void) 
+
+	 { 
+
+		          write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61); 
+
+			    
+
+			           return (1); 
+
+				    }
