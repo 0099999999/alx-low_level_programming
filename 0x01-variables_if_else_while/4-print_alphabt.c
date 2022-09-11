@@ -1,23 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main - print incomplete alphabet
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
+ * this program prints "Programming prints the alphabet in except q e
  * Return: 0
  */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-if (ch != 'e' ; && ch != 'q')
-{
-	putchar(ch);
-}
-}
-putchar('\n');
-return (0);
+	char alph[24] = "abcdfghijklmnoprstuvwxyz";
+	int i;
+
+	for (i = 0; i < 24; i++)
+	{
+	putchar(alph[i]);
+	}
+	putchar('\n');
+	return (0);
 }
